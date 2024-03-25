@@ -19,7 +19,7 @@ echo str_replace("world","Isaac","hello world!") ."<br>";
 echo intval($number) ."<br>";
 //How to use ceil
 echo(ceil(0.85) ."<br>");
-echo(ceil(0.20) ."<br>");
+echo(ceil(6.20) ."<br>");
 echo(ceil(2.3) ."<br>");
 //How to use floor
 echo(floor(0.85) ."<br>");
@@ -47,7 +47,7 @@ echo "<br>";
 echo $greeting ."<br>";
 echo rtrim($greeting, "world!");
 //How to use strpos
-echo strpos("Hello world! The world is beautiful today.","world");
+echo strpos($longString,"world");
 
 
 ?>
