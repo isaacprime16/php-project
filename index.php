@@ -22,7 +22,7 @@ function calculator($operand, $num1, $num2){
     }
 }
 
-echo calculator("+",10,5);
+echo calculator("+",10,5); 
 echo "<br>";
 echo calculator("-",10,5);
 echo "<br>";
